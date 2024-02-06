@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "JeshFrameWork"
-  spec.version      = "0.0.1"
+  spec.version      = "2.0.0"
   spec.summary      = "The framework used for login validation"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Rajesh6381/JeshFrameWork.git", :tag => spec.version.to_s }
+  spec.source       = { :path => "/Users/zoho/Documents/Projects/jeshFrameWork"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
