@@ -15,17 +15,15 @@ public class LoginPage: UIViewController{
         print("Frame Work Loaded")
     }
     
-    public static func emailValidate(mail: String) -> Bool{
-        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
-        
-            let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
-            return emailPred.evaluate(with: mail)
+    @IBAction public  func emailValidate(_ sender: UITextField){
+        print(sender.text)
     }
     
-    public static func passwordValidate(password: String) -> Bool{
-        if password.count >= 6{
-            return true
-        }
-        return false
+    @IBAction public func passwordValidate(_ sender: UITextField) {
+        print(sender.text)
+    }
+    
+    @IBAction public func Login(_ sender: UIButton){
+        print(sender.isSelected)
     }
 }

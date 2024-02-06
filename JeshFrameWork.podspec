@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "JeshFrameWork"
-  spec.version      = "2.0.0"
+  spec.version      = "2.0.1"
   spec.summary      = "The framework used for login validation"
 
 
